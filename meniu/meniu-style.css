@@ -122,3 +122,6 @@
 h1.coming-soon-text {
     font-size: 40px;
 }
+.grey-section {
+    background-color: rgb(240, 240, 240);
+}
