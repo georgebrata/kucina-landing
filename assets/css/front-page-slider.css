@@ -1,0 +1,76 @@
+
+.owl-carousel {
+  position: relative;
+  height: calc(100vh - 50px);
+}
+.owl-carousel div:not(.owl-controls) {
+  height: 100%;
+}
+.owl-carousel .owl-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.5);
+}
+.owl-slide.slide-one {
+    background-image: url("../img/kucina-catering-oradea-slider-01.jpg");
+}
+.owl-slide.slide-two {
+    background-image: url("../img/kucina-catering-oradea-slider-02.jpg");
+}
+.owl-slide.slide-three {
+    background-image: url("../img/kucina-catering-oradea-slider-03.jpg");
+}
+.owl-slide.slide-four {
+    background-image: url("../img/kucina-catering-oradea-slider-04.jpg");
+}
+
+.custom-white-logo {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    z-index: 10;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+}
+
+.owl-carousel .owl-controls {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+
+.owl-carousel .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: inline-block;
+  zoom: 1;
+  margin: 0;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFF;
+  opacity: .6;
+}
+.owl-carousel .owl-controls .owl-buttons .owl-prev {
+  font-size: 10em;
+  left: 5px;
+  background: transparent;
+}
+.owl-carousel .owl-controls .owl-buttons .owl-next {
+  font-size: 10em;
+  right: 5px;
+  background: transparent;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}

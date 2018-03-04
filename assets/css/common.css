@@ -1,0 +1,151 @@
+:root {
+  --main-red: #bf1e2e;
+  --main-black: #2b2e34;
+  --main-text-color: black;
+  --main-font-family: 'Raleway', sans-serif;
+}
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+.color-red {
+    color: var(--main-red);
+}
+.general-font {
+    font-family: var(--main-font-family);
+}
+.general-font.black {
+    font-family: var(--main-font-family);
+    color: var(--main-black);
+}
+.general-font.red {
+    font-family: var(--main-font-family);
+    color: var(--main-red);
+}
+.general-font.white {
+    font-family: var(--main-font-family);
+    color: white;
+}
+.general-divider {
+    width: 100%;
+}
+.general-divider.h25 {
+    height: 25px;
+}
+.general-divider.h50 {
+    height: 50px;
+}
+.general-divider.h75 {
+    height: 75px;
+}
+.general-divider.h100 {
+    height: 100px;
+}
+.general-tc {
+    text-align: center;
+}
+a:hover {
+    color: var(--main-red);
+}
+.icon img {
+    max-width: 70px;
+}
+.bkgr-gray {
+    background-color: #f2f2f2;
+}
+
+
+
+.top-bar {
+    height: 50px;
+    background-color: var(--main-black);
+}
+.social-links {
+    text-align: left;
+}
+.fa-facebook-square, .fa-instagram {
+    color: lightgray;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.fa-facebook-square:hover, .fa-instagram:hover {
+    color: var(--main-red);
+}
+
+.contact-details {
+    text-align: right;
+    margin-top: 10px;
+}
+.phone-number {
+    border-left: none;
+    color: lightgray;
+    font-size: 25px;
+    font-weight: 200;
+}
+.phone-number:hover {
+    color: var(--main-red);
+}
+
+.custom-copyright {
+    background-color: var(--main-black);
+    color: lightgray;
+}
+.creator-text {
+    text-align: right;
+    color: white;
+}
+.creator-text p {
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.creator-text a {
+    font-weight: bold;
+    color: white;
+}
+.creator-text a:hover {
+    color: var(--main-red);
+}
+ul.useful-links {
+    margin-top: 0;
+}
+ul.useful-links li a {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: var(--main-font-family);
+}
+ul.useful-links li a:hover {
+    color: var(--main-red);
+}
+.footer-top-section {
+    padding: 30px 0;
+    background-color: #25262b;
+}
+.header-image {
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-image: url("../img/kucina-catering-header-new-despre-noi.jpg");
+}
+.info-text {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 0 10%;
+}
+
+
+
+@media (max-width: 767px) {
+    .main-intro {
+        width: 95%;
+    }
+    .owl-controls {
+        opacity: 0;
+    }
+}
+
+    

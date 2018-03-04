@@ -1,0 +1,26 @@
+.custom-menu-item {
+    width: 19%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 6.5vw;
+}
+.custom-menu-item.small-width {
+    width: 12%;
+}
+.custom-menu-item-text {
+    font-size: 28px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+}
+.custom-menu-item-img {
+    margin-top: 0;
+}
+.custom-menu-item-text:hover {
+    color: var(--main-red);
+}
+@media screen and (max-width: 767px) {
+    .custom-menu-item, .custom-menu-item.small-width {
+        width: 100%;
+        padding: 15px;
+    }
+}

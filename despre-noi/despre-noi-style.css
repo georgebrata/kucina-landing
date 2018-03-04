@@ -1,0 +1,23 @@
+.section-1 {
+    text-align: center;
+}
+.section-1 {
+    padding: 30px 0;
+    background-color: #f4f4f4;
+}
+.section-1 .main-intro {
+    width: 55%;
+    margin: 0 auto;
+}
+.section-1-columns {
+    margin-top: 50px;
+}
+.section-2, .section-3 {
+    text-align: center;
+}
+.section-2-content {
+    width: 70%; margin: 10px auto; padding-top: 50px;
+}
+.bucataria-container img {
+    max-width: 100%;
+}
