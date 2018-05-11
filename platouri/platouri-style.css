@@ -2,38 +2,51 @@
     background-color: #f4f4f4;
     text-align: center;
 }
+
 .grey-section {
     background-color: rgb(240, 240, 240);
 }
+
 .platou-section-wrapper {
     /*background-color: rgb(240, 240, 240);*/
 }
-.platou-price, .meniu-price {
+
+.platou-price,
+.meniu-price {
     float: right;
     color: var(--main-red);
 }
+
 .post-author-wrapper {
     background-color: inherit;
 }
+
 .post-author-wrapper h3 {
     height: 23px;
     min-height: 23px;
 }
-.platou-par .post-author-img, .meniu-par .post-author-img {
+
+.platou-par .post-author-img,
+.meniu-par .post-author-img {
     float: right;
 }
-.platou-par .platou-detalii-wrapper, .meniu-par .meniu-detalii-wrapper {
+
+.platou-par .platou-detalii-wrapper,
+.meniu-par .meniu-detalii-wrapper {
     margin-left: 0;
 }
+
 .meniu-detalii-wrapper p {
     margin-bottom: 10px;
     line-height: 18px;
 }
+
 .service-num.service-num span {
     font-size: 60px;
     color: white;
     line-height: 60px;
 }
+
 .service-box-wrapper .content h2 {
     top: 40%;
 }
@@ -43,6 +56,7 @@
     margin-top: 12%;
     text-align: center;
 }
+
 .day-container .day-date {
     font-size: 20px;
     font-style: italic;
@@ -52,23 +66,26 @@
 .section-title-wrapper {
     margin-bottom: 0px;
 }
+
 .section-title {
     padding-top: 50px;
 }
+
 .comenzi-speciale {
     padding-top: 0;
     width: 90%;
 }
+
 .meniu-detalii-wrapper p {
     margin-top: 25px;
 }
+
 .meniu-detalii-wrapper p.with-image {
     margin-top: 60px;
 }
 
 @media screen and (max-width: 992px) {
-    .platou-detalii-wrapper {
-    }
+    .platou-detalii-wrapper {}
     .platou-par .post-author-img {
         float: none;
     }
@@ -77,7 +94,7 @@
     }
     .section-title-wrapper {
         margin-bottom: 80px;
-    } 
+    }
     .section-title {
         padding-top: 0px;
     }
@@ -95,7 +112,6 @@
         padding-left: 0;
         padding-right: 0;
     }
-
 }
 
 .section-title-wrapper {
@@ -105,9 +121,11 @@
 .deserts-wrapper {
     background-color: white;
 }
+
 .soda-column .row {
     margin-bottom: 10px;
 }
+
 .coming-soon-text {
     margin-top: 10px;
     font-size: 20px;
@@ -115,9 +133,11 @@
     font-family: 'Allura', cursive;
     padding-bottom: 30px;
 }
+
 .m-0 {
     margin: 0;
 }
+
 h1.coming-soon-text {
     font-size: 40px;
 }

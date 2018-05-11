@@ -24,6 +24,7 @@
 .post-author-wrapper h3 {
     height: 23px;
     min-height: 23px;
+    margin-bottom: 30px;
 }
 
 .post-author-wrapper h3.vegetarian {
